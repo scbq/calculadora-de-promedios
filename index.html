@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Notas Finales</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Notas Finales de Programación Web</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ramo</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Promedio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ramo 1</td>
+                    <td><input type="number" id="nota1_ramo1" min="0" max="10"></td>
+                    <td><input type="number" id="nota2_ramo1" min="0" max="10"></td>
+                    <td><input type="number" id="nota3_ramo1" min="0" max="10"></td>
+                    <td id="promedio_ramo1"></td>
+                </tr>
+                <tr>
+                    <td>Ramo 2</td>
+                    <td><input type="number" id="nota1_ramo2" min="0" max="10"></td>
+                    <td><input type="number" id="nota2_ramo2" min="0" max="10"></td>
+                    <td><input type="number" id="nota3_ramo2" min="0" max="10"></td>
+                    <td id="promedio_ramo2"></td>
+                </tr>
+                <tr>
+                    <td>Ramo 3</td>
+                    <td><input type="number" id="nota1_ramo3" min="0" max="10"></td>
+                    <td><input type="number" id="nota2_ramo3" min="0" max="10"></td>
+                    <td><input type="number" id="nota3_ramo3" min="0" max="10"></td>
+                    <td id="promedio_ramo3"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="calcularPromedios()">Calcular Promedios</button>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
